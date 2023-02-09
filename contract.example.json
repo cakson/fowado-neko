@@ -1,0 +1,41 @@
+[
+  {
+    "type": "message_event",
+    "data": {
+      "runner": "seeker",
+      "source_id": 1,
+      "target_id": 9991491481967263000,
+      "type": "video",
+      "name": "test-name",
+      "ext": ".mp4",
+      "message_text": "hello",
+      "file_size": 123555,
+      "group_name": "test-group",
+      "message_id": 1,
+      "is_duplicate": true
+    }
+  },
+  {
+    "type": "save_event",
+    "data": {
+      "name": "test-name",
+      "ext": ".mp4"
+    }
+  },
+  {
+    "type": "capture_event",
+    "data": {
+      "name": "test-name",
+      "ext": ".mp4"
+    }
+  },
+  {
+    "type": "download_event",
+    "data": {
+      "message_id": 83,
+      "group_name": "test-group",
+      "name": "test-name",
+      "ext": ".jpg"
+    }
+  }
+]
